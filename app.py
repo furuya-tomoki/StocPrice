@@ -55,7 +55,16 @@ try:
         'netflix': 'NFLX',
         'amazon': 'AMZN',
         'Twitter': "TWTR",
-        'Accenture A': 'ACNB'
+        'Accenture A': 'ACNB',
+        'キャノン株式会社': 'CAJ',
+        '本田技研工業株式会社': 'HMC',
+        'オリックス株式会社': 'IX',
+        'くら寿司 USA': 'KRUS',
+        '株式会社みずほフィナンシャルグループ': 'MFG',
+        '株式会社三菱UFJフィナンシャル・グループ': 'MUFG',
+        'ソニーグループ株式会社': 'SONY',
+        'トヨタ自動車株式会社': 'TM',
+        '野村ホールディングス株式会社': 'NMR'
     }
     df = get_data(days, tickers)
 
